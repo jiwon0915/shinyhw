@@ -2,7 +2,7 @@ library(shiny)
 library(data.table)
 library(leaflet)
 
-long_dat<-read.csv("long_dat.csv")
+long_dat<-read.csv("C:/Users/kms60/OneDrive/shiny/long_dat.csv")
 
 pal<-colorFactor("viridis", long_dat$type)
 
